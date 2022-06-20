@@ -1,0 +1,78 @@
+body{
+background-image:  url("https://cdn.pixabay.com/photo/2015/11/19/21/11/knowledge-1052013_1280.jpg"); 
+background-repeat: no-repeat;
+background-size: cover;   
+}
+
+form{
+display: flex;
+border-radius: 8px;
+background-color: rgb(236, 226, 198);
+max-width: 100%;
+width:80% ;
+font-family: cursive;
+text-align: center;
+justify-content: center;
+flex-wrap: wrap;
+padding: 40px;
+}
+
+.imput{
+text-align: center;
+border-radius: 4px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15%;
+}
+.part{
+    max-width: 100%;
+    width: 300px;
+}
+#boton{
+    max-width: 100%;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+.boton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+button{
+    border: none;
+    color: white;
+    border-radius: 25px;
+    cursor:pointer ;
+    background-image: linear-gradient(to right top, #845EC2, #D65DB1,
+    #FF6F91, #FF9671, #FFC75F);
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+button:hover{
+    background-image: linear-gradient(to right top, #F9F871, #c24e00);
+}
+input{
+    width: 200px;
+    height: 35px;
+    border: none;
+}
+input:hover{
+    background: #F9F871;
+}
+#Codigo{
+    margin-right: 30px;
+}
+.formularioact{
+    background-color: black;
+}

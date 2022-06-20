@@ -1,0 +1,64 @@
+
+
+
+li{
+    font-family: cursive;
+    font-style: initial;
+    list-style: none;
+    margin-top: 50px;
+    text-align:center;
+    max-width: 1210px;
+    max-height: 1210px;
+    margin-left: 5%;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.botones {
+    margin-top: 100px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media(min-width:600px){
+    header{
+        flex-direction: row;
+        padding: 0px 30px;
+        justify-content: space-between;
+    }
+}
+
+a{
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-decoration:none;
+    background-image: linear-gradient(to right top, #ffc201, #ffbb00, #ffb300,
+    #ffac00, #ffa400, #ff9c00, #ff9500, #ff8d00, #ff8300, #ff7900,
+    #ff6e00, #ff6201);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    color:white;
+    width: 200px;
+}
+
+body{
+
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_960_720.jpg");       
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+}
